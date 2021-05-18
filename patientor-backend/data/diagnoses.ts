@@ -1,4 +1,6 @@
-[
+import {diagnoses} from '../src/types/diagnosesEntry';
+
+const diagnosesData: Array<diagnoses> = [
     {
       "code": "M24.2",
       "name": "Disorder of ligament",
@@ -80,4 +82,6 @@
       "code": "J12.82",
       "name": "Pneumonia due to coronavirus disease"
     }
-  ]
+  ];
+
+  export default diagnosesData;
